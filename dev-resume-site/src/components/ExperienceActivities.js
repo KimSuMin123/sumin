@@ -25,45 +25,47 @@ const ExperienceActivities = () => {
       <section style={sectionStyle}>
         <h3 style={subHeadingStyle}>교내 활동 및 구름톤 트레이닝</h3>
         
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>학과 학생회</h4>
-          <p style={dateStyle}>2021.03 ~ 2022.12</p>
-          <p>기획부, 총무부장, 부학생회장, 학생회장 활동</p>
-        </div>
+        <div style={projectsContainerStyle}>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>학과 학생회</h4>
+            <p style={dateStyle}>2021.03 ~ 2022.12</p>
+            <p>기획부, 총무부장, 부학생회장, 학생회장 활동</p>
+          </div>
 
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>반대표</h4>
-          <p style={dateStyle}>2021.09 ~ 2022.07</p>
-          <p>학교 반대표 활동</p>
-        </div>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>반대표</h4>
+            <p style={dateStyle}>2021.09 ~ 2022.07</p>
+            <p>학교 반대표 활동</p>
+          </div>
 
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>COMMON 전공동아리활동</h4>
-          <p style={dateStyle}>2021.02 ~ 2023.12</p>
-          <p>2022.03 ~ 2022.07 전공 동아리 부장 활동</p>
-        </div>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>COMMON 전공동아리활동</h4>
+            <p style={dateStyle}>2021.02 ~ 2023.12</p>
+            <p>2022.03 ~ 2022.07 전공 동아리 부장 활동</p>
+          </div>
 
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>자바 튜터링</h4>
-          <p style={dateStyle}>2022.03 ~ 2022.08</p>
-          <p>자바 튜터로 활동</p>
-        </div>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>자바 튜터링</h4>
+            <p style={dateStyle}>2022.03 ~ 2022.08</p>
+            <p>자바 튜터로 활동</p>
+          </div>
 
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>구름톤 트레이닝 수료</h4>
-          <p style={dateStyle}>2022.02 ~ 2022.08</p>
-        </div>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>구름톤 트레이닝 수료</h4>
+            <p style={dateStyle}>2022.02 ~ 2022.08</p>
+          </div>
 
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>구름톤 트레이닝 알고리즘 스터디</h4>
-          <p style={dateStyle}>2022.02 ~ 2022.04</p>
-          <p>스터디장으로 활동</p>
-        </div>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>구름톤 트레이닝 알고리즘 스터디</h4>
+            <p style={dateStyle}>2022.02 ~ 2022.04</p>
+            <p>스터디장으로 활동</p>
+          </div>
 
-        <div style={activityItemStyle}>
-          <h4 style={activityTitleStyle}>구름톤 트레이닝 스프링 스터디</h4>
-          <p style={dateStyle}>2022.04 ~ 2022.06</p>
-          <p>스터디장으로 활동</p>
+          <div style={activityItemStyle}>
+            <h4 style={activityTitleStyle}>구름톤 트레이닝 스프링 스터디</h4>
+            <p style={dateStyle}>2022.04 ~ 2022.06</p>
+            <p>스터디장으로 활동</p>
+          </div>
         </div>
       </section>
 
@@ -124,7 +126,10 @@ const ExperienceActivities = () => {
             <a href="https://www.canva.com/design/DAGJLifg0YI/0ruL7Qk2npEBFaPbBG6IEA/edit?utm_content=DAGJLifg0YI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
               <img src={code} alt="Coding Game Project" style={imageStyle} />
             </a>
-            <a href="https://www.canva.com/design/DAGJLifg0YI/0ruL7Qk2npEBFaPbBG6IEA/edit?utm_content=DAGJLifg0YI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={linkStyle}>Project Link</a>
+            <a href="https://www.canva.com/design/DAGJLifg0YI/0ruL7Qk2npEBFaPbBG6IEA/edit?utm_content=DAGJLifg0YI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={linkStyle}>프로젝트 소개서</a>
+           <br></br> 
+            <a href="https://www.codeadventure.shop/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Project Link</a>
+
             <h4 style={activityTitleStyle}>2024년 대림대 해커톤 입상</h4>
             <p style={dateStyle}>2024.04 ~ 2024.07</p>
             <p>코린이들을 위한 코딩 게임 개발 - React 프론트 엔드 개발, Node 백엔드 개발</p>
@@ -134,7 +139,7 @@ const ExperienceActivities = () => {
             <a href="https://www.miricanvas.com/ko/v/13j287h" target="_blank" rel="noopener noreferrer">
               <img src={ieum} alt="Coding Game Project" style={imageStyle} />
             </a>
-            <a href="https://www.miricanvas.com/ko/v/13j287h" target="_blank" rel="noopener noreferrer" style={linkStyle}>Project Link</a>
+            <a href="https://www.miricanvas.com/ko/v/13j287h" target="_blank" rel="noopener noreferrer" style={linkStyle}>프로젝트 소개서</a>
             <h4 style={activityTitleStyle}>2024년 구름톤 트레이닝 프로젝트</h4>
             <p style={dateStyle}>2024.05~ 2024.08</p>
             <p>친구와 함께 여행 계획 웹 - React 프론트 엔드 개발</p>
@@ -194,7 +199,7 @@ const projectsContainerStyle = {
 };
 
 const activityItemStyle = {
-  flex: '1 1 calc(50% - 20px)', // Each item will take half of the width minus the gap
+  flex: '1 1 calc(33.33% - 20px)', // Each item will take one-third of the width minus the gap
   marginBottom: '30px',
 };
 
